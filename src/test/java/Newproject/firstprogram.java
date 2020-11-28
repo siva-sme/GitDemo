@@ -41,6 +41,14 @@ public class firstprogram extends Base {
 
 		//lp.home().click();
 
+//git hub
+
+System.out.println("Test - nav annotation 1");
+		
+		System.out.println("Test - nav annotation 2");
+		
+		System.out.println("Test - nav annotation3");
+
 	}
 
 	@DataProvider

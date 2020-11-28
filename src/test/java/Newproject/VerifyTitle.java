@@ -45,6 +45,14 @@ public class VerifyTitle extends Base {
 		
 		System.out.println("Test - Title annotation");
 
+//git hub
+
+System.out.println("Test - nav annotation 1");
+		
+		System.out.println("Test - nav annotation 2");
+		
+		System.out.println("Test - nav annotation3");
+
 	}
 
 

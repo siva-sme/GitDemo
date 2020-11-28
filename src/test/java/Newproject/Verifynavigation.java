@@ -33,7 +33,13 @@ public class Verifynavigation extends Base {
 		
 		Assert.assertTrue(hp.navbar().isDisplayed());
 		
-		System.out.println("Test - nav annotation");
+		//gii Hub
+		
+		System.out.println("Test - nav annotation 1");
+		
+		System.out.println("Test - nav annotation 2");
+		
+		System.out.println("Test - nav annotation3");
 
 	
 
