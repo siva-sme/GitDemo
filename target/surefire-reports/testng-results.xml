@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-09T22:52:03 IST" name="Suite" finished-at="2020-08-09T22:52:46 IST" duration-ms="43322">
+    <groups>
+    </groups>
+    <test started-at="2020-08-09T22:52:03 IST" name="Test" finished-at="2020-08-09T22:52:46 IST" duration-ms="43322">
+      <class name="Newproject.Verifynavigation">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Newproject.Verifynavigation@26ceffa8]" started-at="2020-08-09T22:52:21 IST" name="initialize" finished-at="2020-08-09T22:52:39 IST" duration-ms="17528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="login()[pri:0, instance:Newproject.Verifynavigation@26ceffa8]" started-at="2020-08-09T22:52:39 IST" name="login" finished-at="2020-08-09T22:52:40 IST" duration-ms="647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:Newproject.Verifynavigation@26ceffa8]" started-at="2020-08-09T22:52:40 IST" name="browserclose" finished-at="2020-08-09T22:52:46 IST" duration-ms="5699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- Newproject.Verifynavigation -->
+      <class name="Newproject.VerifyTitle">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Newproject.VerifyTitle@600b90df]" started-at="2020-08-09T22:52:03 IST" name="initialize" finished-at="2020-08-09T22:52:21 IST" duration-ms="18568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="login()[pri:0, instance:Newproject.VerifyTitle@600b90df]" started-at="2020-08-09T22:52:46 IST" name="login" finished-at="2020-08-09T22:52:46 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:Newproject.VerifyTitle@600b90df]" started-at="2020-08-09T22:52:46 IST" name="browserclose" finished-at="2020-08-09T22:52:46 IST" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- Newproject.VerifyTitle -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

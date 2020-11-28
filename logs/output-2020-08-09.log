@@ -1,0 +1,8 @@
+22:42:16.356 [main] INFO  Newproject.VerifyTitle - Browser initiated
+22:42:24.026 [main] INFO  Newproject.VerifyTitle - Navigated to respective URL
+22:42:45.607 [main] INFO  Newproject.VerifyTitle - Text verified
+22:42:50.064 [main] INFO  Newproject.VerifyTitle - Browser Closed
+22:45:34.697 [main] INFO  Newproject.VerifyTitle - Browser initiated
+22:45:50.121 [main] INFO  Newproject.VerifyTitle - Navigated to respective URL
+22:46:12.175 [main] INFO  Newproject.VerifyTitle - Text verified
+22:46:12.664 [main] INFO  Newproject.VerifyTitle - Browser Closed

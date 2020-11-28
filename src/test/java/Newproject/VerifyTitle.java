@@ -1,0 +1,65 @@
+package Newproject;
+
+import java.io.IOException;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import org.junit.Assert;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import pageObjects.HomePage;
+import pageObjects.LoginPage;
+
+public class VerifyTitle extends Base {
+	
+	public WebDriver driver;
+
+	public static Logger log = LogManager.getLogger(VerifyTitle.class.getName());
+	
+	
+	@BeforeTest
+	public void initialize() throws IOException {
+
+		driver=browserinit();
+		
+		log.info("Browser initiated");
+
+		driver.get(prop.getProperty("URL"));
+		
+		log.info("Navigated to respective URL");
+	}
+
+	@Test
+	public void validateTitle() {
+
+		HomePage hp = new HomePage(driver);
+		
+		Assert.assertEquals("FEATURED COURSES123", hp.text().getText());
+		
+		log.info("Text verified");
+		
+		System.out.println("Test - Title annotation");
+
+	}
+
+
+	@AfterTest
+	public void browserclose()
+
+	{
+
+		driver.close();
+		
+		log.info("Browser Closed");
+		
+		System.out.println("AfterClass annotation");
+		
+	
+	}
+
+}
