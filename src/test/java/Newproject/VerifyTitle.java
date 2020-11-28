@@ -69,6 +69,28 @@ public class VerifyTitle extends Base {
 		System.out.println("Test - nav annotation 6");
 
 	}
+	
+	
+	@Test
+	public void validateTitleGIT() {
+
+		HomePage hp = new HomePage(driver);
+
+		Assert.assertEquals("FEATURED COURSES123", hp.text().getText());
+
+		log.info("Text verified");
+
+		System.out.println("Test - Title annotation");
+		
+		//GIT HUB
+		
+		System.out.println("Test - nav annotation 4");
+		
+		System.out.println("Test - nav annotation 5");
+		
+		System.out.println("Test - nav annotation 6");
+
+	}
 
 	@AfterTest
 	public void browserclose()

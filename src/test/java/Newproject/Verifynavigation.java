@@ -13,15 +13,13 @@ import pageObjects.HomePage;
 import pageObjects.LoginPage;
 
 public class Verifynavigation extends Base {
-	
-	
-	public WebDriver driver;
 
+	public WebDriver driver;
 
 	@BeforeTest
 	public void initialize() throws IOException {
 
-		driver=browserinit();
+		driver = browserinit();
 
 		driver.get(prop.getProperty("URL"));
 	}
@@ -30,27 +28,41 @@ public class Verifynavigation extends Base {
 	public void validateNavigation() {
 
 		HomePage hp = new HomePage(driver);
-		
-		Assert.assertTrue(hp.navbar().isDisplayed());
-		
-		//gii Hub
-		
-		System.out.println("Test - nav annotation 1");
-		
-		System.out.println("Test - nav annotation 2");
-		
-		System.out.println("Test - nav annotation 3");
-		
-		
-		//GIT HUB
-		
-				System.out.println("Test - nav annotation 4");
-				
-				System.out.println("Test - nav annotation 5");
-				
-				System.out.println("Test - nav annotation 6");
 
-	
+		Assert.assertTrue(hp.navbar().isDisplayed());
+
+		// gii Hub
+
+		System.out.println("Test - nav annotation 1");
+
+		System.out.println("Test - nav annotation 2");
+
+		System.out.println("Test - nav annotation 3");
+
+		// GIT HUB
+
+		System.out.println("Test - nav annotation 4");
+
+		System.out.println("Test - nav annotation 5");
+
+		System.out.println("Test - nav annotation 6");
+
+	}
+
+	@Test
+	public void validateTitleGIT() {
+
+		HomePage hp = new HomePage(driver);
+
+		Assert.assertTrue(hp.navbar().isDisplayed());
+
+		// GIT HUB
+
+		System.out.println("Test - nav annotation 4");
+
+		System.out.println("Test - nav annotation 5");
+
+		System.out.println("Test - nav annotation 6");
 
 	}
 
@@ -60,7 +72,7 @@ public class Verifynavigation extends Base {
 	{
 
 		driver.close();
-		
+
 		System.out.println("AfterClass annotation");
 	}
 
