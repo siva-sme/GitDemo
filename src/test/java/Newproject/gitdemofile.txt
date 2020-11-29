@@ -1,5 +1,4 @@
 Git Demo
-Test file
 Git conflicts
 
 Numbers
@@ -8,3 +7,6 @@ Numbers
 3
 4
 5
+7
+8
+9
